@@ -1,0 +1,830 @@
+*{
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+
+
+
+/*restore crypto styling*/
+
+#restorelink{
+	margin-top: 20px;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	color: black;
+}
+
+/*
+
+#textcontainer{
+	
+	padding-top: 20vh;
+	padding-left: 10vw;
+
+	
+
+}
+#cryptotext{
+margin-top: -120px;
+font-family: 'Roboto';font-weight: bolder;font-size:40px;width: 470px;
+}
+
+#textcontainer h1{
+		font-size: 30px;
+		font-weight: bolder;
+
+		
+}
+#textcontainer p{
+		font-size: 18px;
+		color: rgb(255,255,255);
+		
+		margin-top: 45px;
+}
+
+#textcontainer a{
+		width: 200px;
+		height: 50px;
+}
+#secured h1{
+	color: rgb(255,255,255);
+	font-size: 18px;
+}*/
+
+#restorebody{
+	background-color: rgb(28,36,59);
+}
+
+#phraselogocontainer{
+	
+	margin-top: 3vh;
+
+}
+
+#phrasecontainer{
+	width: 450px;
+	height: 460px;
+	margin-top: 4vh;
+
+}
+#pass::placeholder{
+color: rgb(112,153,214);
+font-family: 'Open Sans Condensed';
+font-size: 18px;
+font-weight: bold;
+}
+
+#restorebnt:hover{
+
+	box-shadow: 1px 1px 25px #00ffff;
+}
+
+#middlephrasecontainer{
+	width: 450px;
+	height: 460px;
+	margin-top: 3vh;
+	background-color: rgb(36,47,75);
+}
+
+#innerphrasecontainer{
+	width: 400px;
+	height: 460px;
+	margin-top: 1vh;
+
+	
+}
+#form{
+	width: 400px;
+}
+
+/*end of restore crypto styling*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Navigation page styling*/
+
+.navContainer{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgb(51,117,187);
+	color: white;
+	padding-top: 50px;
+	padding-right: 20px;
+	padding-left: 40px;
+}
+.logoContainer{
+	color: white;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 170px;
+	height: 50px;
+}
+.logoContainer h5{
+	color: white;
+	font-size: 19px;
+	font-weight: bolder;
+
+}
+.navLinks button{
+	background-color: rgb(51,117,187);
+	font-size: 30px;
+	border: none;
+
+}
+.navLinks i{
+	color: white;
+	font-size: 30px;
+
+
+}
+
+/*link display is set to none*/
+.navLinks ul{
+	display: none;
+}
+
+
+.mobileNav{
+	background-color: white;
+	width: 90%;
+	border-radius:8px;
+	text-align: left;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: black;
+	display: none;
+}
+.mobileNav a: hover{
+	color: #709ECF;
+}
+.mobileNav a{
+	color: gray;
+	text-decoration: none;
+}
+.mobileNav li{
+	list-style: none;
+	margin-top: 25px;
+	font-size: 20x;
+	font-weight: bolder;
+	padding-top: 20px;
+}
+
+/*End of Navigation page styling*/
+
+.maincontainer{
+	background-color: white;
+}
+
+.toprow{
+	background-color:rgb(51,117,187);
+	display: block;
+	/*align-items: center;*/
+	padding-top:100px ;
+}
+.imgcontainer img{
+	width: 600px;
+	height: 600px;
+	margin-top: 40px;
+}
+.imgcontainer{
+	display: flex;
+	justify-content: center;
+}
+.textcontainer h2{
+
+	font-size: 30px;
+	color: white;
+	font-weight: bolder;
+}
+
+.textcontainer p{
+	/*width: 410px;*/
+	font-size: 18px;
+	color: #CCDCEE;
+}
+.Validate{
+	width: 200px;
+	height: 50px;
+	background-color:white ;
+	color: #3375BB;
+	border-radius: 7px;
+	padding-top: 5px;
+	font-size: 20px;
+	font-weight: bolder;
+}
+.Validate a{
+	text-decoration: none;
+}
+
+/*Beginning of content one styling*/
+
+.content1Row{
+	padding-top: 90px;
+	display: block;
+	text-align: center;	
+}
+
+.content1 h2{
+	color: #161C2D;
+	/*text-align: center;*/
+	font-size: 34px;
+	font-weight: bolder;
+}
+
+.content1 p{
+	color: black;
+	/*text-align: center;*/
+	color: #7080AB;
+	font-size: 20px;
+}
+
+.content1 a{
+color: white;
+font-weight: bolder;
+font-size: 20px;
+text-decoration: none;
+
+}
+.content1img img{
+	width:370px ;
+	height: 370px;
+	margin-top: 40px;
+
+}
+.content1img {
+	display: flex;
+	justify-content: center;
+
+}
+
+.content1{
+
+}
+.downloadLink{
+	text-decoration: none;
+	/*font-weight: bold;*/
+	width: 160px;
+	height: 50px;
+	border-radius: 7px;
+	background-color: #3375BB;
+	color: white;
+    text-align: center;
+    padding-top: 10px;
+ 
+}
+
+/*End of content One styling*/
+
+
+
+
+
+/*Beginning of content two styling*/
+
+.content2Row{
+	padding-top: 90px;
+
+	text-align: center;
+	
+}
+
+.content2 h2{
+	color: #161C2D;
+	font-size: 34px;
+	font-weight: bolder;
+}
+
+.content2 p{
+	color: black;
+	color: #7080AB;
+	font-size: 20px;
+}
+
+.content2 a{
+color: white;
+font-weight: bolder;
+font-size: 20px;
+text-decoration: none;
+
+}
+.content2img img{
+	width:370px ;
+	height: 370px;
+	margin-top: 40px;
+}
+.content2img{
+	display: flex;
+	justify-content: center;
+}
+.downloadLink{
+	text-decoration: none;
+	/*font-weight: bold;*/
+	width: 160px;
+	height: 50px;
+	border-radius: 7px;
+	background-color: #3375BB;
+	color: white;
+    text-align: center;
+    padding-top: 10px;
+ 
+}
+
+/*End of content two styling*/
+
+
+/*Beginning of content one styling*/
+
+.content3Row{
+	padding-top: 90px;
+	text-align: center;
+	
+}
+
+.content3 h2{
+	color: #161C2D;
+	font-size: 34px;
+	font-weight: bolder;
+}
+
+.content3 p{
+	color: black;
+	color: #7080AB;
+	font-size: 20px;
+}
+
+.content3 a{
+color: white;
+font-weight: bolder;
+font-size: 20px;
+text-decoration: none;
+
+}
+.content3img img{
+	width:370px ;
+	height: 370px;
+	margin-top: 40px;
+}
+
+.downloadLink{
+	text-decoration: none;
+	/*font-weight: bold;*/
+	width: 160px;
+	height: 50px;
+	border-radius: 7px;
+	background-color: #3375BB;
+	color: white;
+    text-align: center;
+    padding-top: 10px;
+ 
+}
+
+/*End of content three styling*/
+
+
+/*Beginning of content four styling*/
+
+.content4Row{
+	padding-top: 90px;
+	text-align: center;
+	
+}
+
+.content4 h2{
+	color: #161C2D;
+	font-size: 34px;
+	font-weight: bolder;
+}
+
+.content4 p{
+	color: black;
+	color: #7080AB;
+	font-size: 20px;
+}
+
+.content4 a{
+color: white;
+font-weight: bolder;
+font-size: 20px;
+text-decoration: none;
+
+}
+.content4img img{
+	width:370px ;
+	height: 370px;
+	margin-top: 40px;
+}
+
+.downloadLink{
+	text-decoration: none;
+	/*font-weight: bold;*/
+	width: 160px;
+	height: 50px;
+	border-radius: 7px;
+	background-color: #3375BB;
+	color: white;
+    text-align: center;
+    padding-top: 10px;
+ 
+}
+
+/*End of content four styling*/
+
+
+/*top footer styling*/
+.topFooter{
+	background-color: #F9FBFD;
+	text-align: center;
+	height: 400px;
+	padding-top: 50px;
+}
+.topFooter h3{
+	color: #161C2D;
+	font-weight: bolder;
+	font-size:19px;
+	
+}
+.topFooter p{
+	color: #708090;
+	
+}
+/*end top footer styling*/
+
+
+/*bottom footer styling*/
+
+.bottomFooter{
+	text-align: center;
+	padding-top: 20px;
+}
+.bottomFooter .col-md-4{
+	margin-top: 25px;
+}
+.bottomFooter h6{
+	/*text-align: center;*/
+	font-weight: bolder;
+	margin-left: 25px;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+
+.bottomFooter li{
+list-style: none;
+font-size: 18px;
+margin-top: 20px;
+
+}
+/*end of bottom footer styling*/
+
+@media only screen and (min-width: 751px){
+
+.Validate{
+margin-left: -450px;
+/*padding: 10px 0px;*/
+text-align: center;
+height: 45px;
+line-height: 38px;
+width: 150px;
+
+}
+
+/*Content one styling*/
+.content1Row{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	text-align: left;
+	margin-top: 30px;
+}
+
+
+.downloadLink{
+	float: left;
+}
+.content1{
+	/*float: right;*/
+	left: 200px;
+	position: relative;
+	width: 50%;
+}
+.content1img{
+	position: absolute;
+	/*float: left;*/
+	right: 50%;
+}
+
+
+/*end content one styling*/
+
+
+
+/*Content two styling*/
+.content2Row{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	text-align: left;
+	margin-top: 30px;
+}
+
+
+.downloadLink{
+	float: left;
+}
+.content2{
+	margin-left: 40px;
+}
+
+
+
+/*end content two styling*/
+
+
+/*Content three styling*/
+.content3Row{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	text-align: left;
+	margin-top: 30px;
+}
+
+
+.downloadLink{
+	float: left;
+}
+.content3{
+	/*float: right;*/
+	left: 200px;
+	position: relative;
+	width: 50%;
+}
+.content3img{
+	position: absolute;
+	/*float: left;*/
+	right: 50%;
+}
+
+
+/*end content three styling*/
+
+
+
+/*Content four styling*/
+.content4Row{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	text-align: left;
+	margin-top: 30px;
+}
+
+
+.downloadLink{
+	float: left;
+}
+.content4{
+	margin-left: 40px;
+	width: 50%;
+}
+
+
+.content4img{
+}
+
+
+/*end content four styling*/
+
+
+}
+
+
+
+
+@media only screen and (min-width: 975px){
+
+.toprow{
+
+	display: flex;
+	justify-content: space-between;
+	margin-top: -100px;
+}
+
+.Validate{
+	margin-left: -250px;
+}
+.textcontainer h2{
+
+	font-size: 45px;
+	width: 450px;
+	text-align: left;
+	padding-left: 25px;
+}
+.textcontainer{
+
+	margin-top: 150px;
+}
+
+.textcontainer p{
+	/*width: 410px;*/
+	/*font-size: 18px;*/
+	text-align: left;
+	padding-left: 25px;
+	
+}
+.imgcontainer img{
+	width: 650px;
+	height: 650px;
+
+}
+.imgcontainer {
+	padding-left: 50px;
+	
+}
+
+
+
+/*Content one styling*/
+
+.content1Row{
+	margin-top: 70px;
+}
+
+.content1{
+	/*float: right;*/
+	left: 200px;
+	position: relative;
+	padding-bottom: 170px;
+	margin-top: 70;
+	margin-left: 170px;
+
+
+}
+.content1 h2{
+	/*float: right;*/
+	font-size: 55px;
+}
+.content1 p{
+	width: 400px;
+}
+.content1img{
+	position: absolute;
+	/*float: left;*/
+	right: 50%;
+}
+.content1img img{
+	width: 550px;
+	height: 550px;
+}
+
+
+/*end content one styling*/
+
+
+
+/*Content two styling*/
+
+.content2Row{
+	margin-top: 70px;
+}
+
+.content2{
+	
+	padding-bottom: 170px;
+	margin-top: 70;
+	margin-left: 170px;
+
+
+}
+.content2 h2{
+	/*float: right;*/
+	font-size: 55px;
+}
+.content2 p{
+	width: 400px;
+}
+.content2img img{
+	width: 550px;
+	height: 550px;
+}
+
+
+/*end content two styling*/
+
+/*Content three styling*/
+
+.content3Row{
+	margin-top: 70px;
+}
+
+.content3{
+	/*float: right;*/
+	left: 200px;
+	position: relative;
+	padding-bottom: 170px;
+	margin-top: 70;
+	margin-left: 170px;
+
+
+}
+.content3 h2{
+	/*float: right;*/
+	font-size: 55px;
+}
+.content3 p{
+	width: 400px;
+}
+.content3img{
+	position: absolute;
+	/*float: left;*/
+	right: 50%;
+}
+.content3img img{
+	width: 550px;
+	height: 550px;
+}
+
+
+/*end content three styling*/
+
+
+/*Content four styling*/
+
+.content4Row{
+	margin-top: 70px;
+}
+
+.content4{
+	ossible.
+
+Download Now
+	padding-bottom: 170px;
+	margin-top: 70;
+	margin-left: 170px;
+
+
+}
+.content4 h2{
+	/*float: right;*/
+	font-size: 55px;
+}
+.content4 p{
+	width: 400px;
+}
+.content4img img{
+	width: 550px;
+	height: 550px;
+}
+
+
+/*end content four styling*/
+
+.navLinks a{
+	color: white;
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+.navLinks ul{
+	display: flex;
+	align-items: center;
+	margin-right: 20px;
+}
+
+.navLinks li{
+	list-style: none;
+	
+	margin-right: 50px;
+}
+
+
+.navLinks button{
+	display: none;
+}
+
+.topFooter{
+	text-align: left;
+	padding-left: 200px;
+}
+
+
+
+}
